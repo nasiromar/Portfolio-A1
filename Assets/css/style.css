@@ -31,14 +31,14 @@ main {
   display: flex;
   flex-wrap: wrap;
 }
-
-.img {
+.photo {
   width: 200px;
   height: 200px;
   border-radius: 300px;
   margin-inline: 40px;
   position: relative;
-  bottom: 70PX;
+  bottom: 5PX;
+  float: right;
 }
 
 aside {
@@ -80,6 +80,8 @@ footer {
 
 .card p {
   text-align: center;
+  display: flex;
+  margin-top: 40px;
 }
 
 .card img {
